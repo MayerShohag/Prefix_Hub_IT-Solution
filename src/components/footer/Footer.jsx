@@ -1,10 +1,9 @@
 import { CiFacebook, CiInstagram, CiLinkedin, CiTwitter } from "react-icons/ci";
 
-export default function FooterSection() {
+export default function Footer() {
      return (
           <footer className="bg-gray-900 text-gray-300 py-16">
                <div className="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-3 gap-12">
-                    
                     <div>
                          <div className="flex items-center gap-3 mb-5">
                               <img
@@ -97,33 +96,33 @@ export default function FooterSection() {
                                    href="#"
                                    className="hover:text-white transition"
                               >
-                                   <CiFacebook/>
+                                   <CiFacebook />
                               </a>
                               <a
                                    href="#"
                                    className="hover:text-white transition"
                               >
-                                   <CiLinkedin/>
+                                   <CiLinkedin />
                               </a>
                               <a
                                    href="#"
                                    className="hover:text-white transition"
                               >
-                                   <CiTwitter/>
+                                   <CiTwitter />
                               </a>
                               <a
                                    href="#"
                                    className="hover:text-white transition"
                               >
-                                   <CiInstagram/>
+                                   <CiInstagram />
                               </a>
                          </div>
                     </div>
                </div>
 
                <div className="mt-12 border-t border-gray-700 pt-6 text-center text-gray-500 text-sm">
-                    &copy;Copyright {new Date().getFullYear()} Prefix Hub IT Solution. All rights
-                    reserved.
+                    &copy;Copyright {new Date().getFullYear()} Prefix Hub IT
+                    Solution. All rights reserved.
                </div>
           </footer>
      );

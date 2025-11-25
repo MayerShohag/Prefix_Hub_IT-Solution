@@ -1,6 +1,6 @@
 import { IoIosArrowDown } from "react-icons/io";
 
-const QuestionCollapse = () => {
+const QuestionSection = () => {
      return (
           <div className="container mx-auto lg:px-40 px-5 my-10">
                <h1 className="text-4xl font-bold text-center">
@@ -64,4 +64,4 @@ const QuestionCollapse = () => {
      );
 };
 
-export default QuestionCollapse;
+export default QuestionSection;

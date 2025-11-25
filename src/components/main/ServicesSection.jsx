@@ -59,7 +59,10 @@ export default function ServicesSection() {
                                    className="group p-8 bg-white hover:bg-accent hover:text-white rounded-2xl shadow-sm border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                               >
                                    <div className="text-5xl mb-5">
-                                        <img src={service.icon} alt={service.title} />
+                                        <img
+                                             src={service.icon}
+                                             alt={service.title}
+                                        />
                                    </div>
                                    <h3 className="text-xl font-semibold mb-2">
                                         {service.title}

@@ -24,7 +24,7 @@ const Counter = ({ end }) => {
      return <span>{value}</span>;
 };
 
-export default function IT_StatsSection_Professional() {
+export default function SuccessSection() {
      const stats = [
           {
                number: 99,

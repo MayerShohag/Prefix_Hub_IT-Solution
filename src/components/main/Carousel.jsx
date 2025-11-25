@@ -27,7 +27,7 @@ const slides = [
      },
 ];
 
-export default function HeroCarousel() {
+export default function Carousel() {
      const [currentSlide, setCurrentSlide] = useState(0);
 
      useEffect(() => {
@@ -68,7 +68,9 @@ export default function HeroCarousel() {
                                         <h1 className="md:text-4xl lg:text-6xl text-2xl font-bold mb-2 md:mb-4">
                                              {slide.title}
                                         </h1>
-                                        <p className="mb-6 text-center px-20 lg:text-3xl">{slide.subtitle}</p>
+                                        <p className="mb-6 text-center px-20 lg:text-3xl">
+                                             {slide.subtitle}
+                                        </p>
                                         <Link
                                              to={slide.buttonLink}
                                              className="md:px-6 px-3 py-2 md:py-3 bg-accent/50 hover:bg-[#da3343] rounded text-white font-semibold"

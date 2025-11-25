@@ -1,31 +1,19 @@
-
-import HeroCarousel from "./carousel/Carousel";
+import { Outlet } from "react-router";
 import Header from "./header/Header";
-import AboutUs from "./main/AboutSection";
-import FooterSection from "./main/Footer";
-import ContactSection from "./main/GetInTouch";
-import QuestionCollapse from "./main/QuestionCollapse";
-import ServicesSection from "./main/ServicesSection";
-import SuccessRate from "./main/SuccessRate";
-import TeamMembersSection from "./main/TeamMembers";
+import Footer from "./footer/Footer";
 
 const Root = () => {
-      return (
-            <div className="font-sans">
-                  <Header>
-                        <Header/>
-                  </Header>
-                  <main className="">
-                        <HeroCarousel/>
-                        <SuccessRate/>
-                        <AboutUs/>
-                        <ServicesSection/>
-                        <TeamMembersSection/>
-                        <QuestionCollapse/>
-                        <FooterSection/>
-                  </main>
-            </div>
-      );
+     return (
+          <div className="font-sans">
+               <Header>
+                    <Header />
+               </Header>
+               <main>
+                    <Outlet />
+               </main>
+               <Footer />
+          </div>
+     );
 };
 
 export default Root;

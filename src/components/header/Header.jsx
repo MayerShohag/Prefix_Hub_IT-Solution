@@ -13,7 +13,7 @@ import { Link } from "react-router";
 const Header = () => {
      return (
           <>
-               <div>
+               <div className="sticky top-0 z-40">
                     <div className="bg-accent">
                          <div className="hidden md:flex justify-between lg:px-40 md:px-10 items-center container mx-auto py-2 text-white">
                               <div className="flex items-center md:gap-2 lg:gap-5">
@@ -50,7 +50,7 @@ const Header = () => {
                               </div>
                          </div>
                     </div>
-                    <div className="navbar bg-base-100 shadow-sm">
+                    <div className="navbar bg-base-100 shadow-sm z-30">
                          <div className="navbar-start">
                               <div className="dropdown">
                                    <div
