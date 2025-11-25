@@ -1,8 +1,14 @@
 export default function ContactSection() {
+     const address = {
+          location: "Sector 11, Uttara, Dhaka-1230",
+          mail: "prefixhubsolution@gmail.com",
+          phone: "+8801518934337",
+          open: "24/7",
+          map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7296.727106754229!2d90.38215304207282!3d23.876723764337527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c413e891ad29%3A0x98211bdb93d8dec1!2sSector%2011%2C%20Dhaka%201230!5e0!3m2!1sen!2sbd!4v1764094619131!5m2!1sen!2sbd",
+     };
      return (
           <section className="w-full py-20 bg-gray-50" id="contact">
                <div className="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-                    {/* Left: Contact Form */}
                     <div>
                          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
                               Get in Touch
@@ -55,23 +61,18 @@ export default function ContactSection() {
                          </form>
                     </div>
 
-                    {/* Right: Map + Contact Info */}
                     <div className="space-y-8">
                          <div>
                               <h3 className="text-xl font-semibold text-gray-900 mb-4">
                                    Our Location
                               </h3>
                               <div className="w-full h-72 rounded-xl overflow-hidden shadow border border-gray-200">
-                                   {/* Google Maps iframe placeholder */}
                                    <iframe
-                                        title="Company Location"
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094746!2d144.95373631531696!3d-37.81627974201108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577c2b47f8cc5c!2sTech%20Company!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
-                                        width="100%"
-                                        height="100%"
-                                        style={{ border: 0 }}
-                                        allowFullScreen=""
+                                        src={address.map}
+                                        className="w-full h-full"
+                                        allowfullscreen=""
                                         loading="lazy"
-                                        referrerPolicy="no-referrer-when-downgrade"
+                                        referrerpolicy="no-referrer-when-downgrade"
                                    ></iframe>
                               </div>
                          </div>
@@ -82,20 +83,25 @@ export default function ContactSection() {
                               </h3>
                               <ul className="space-y-3 text-gray-700">
                                    <li>
-                                        <strong>Address:</strong> 123 Tech
-                                        Street, Innovation City, USA
+                                        <strong>Address:</strong>{" "}
+                                        {address.location}
                                    </li>
                                    <li>
                                         <strong>Email:</strong>{" "}
-                                        contact@yourcompany.com
+                                        <a href={`mailto:${address.mail}`}>
+                                             {address.mail}
+                                        </a>
                                    </li>
                                    <li>
-                                        <strong>Phone:</strong> +1 (555)
-                                        123-4567
+                                        <strong>Phone:</strong>
+                                        <a href={`tel:+${address.phone}`}>
+                                             {" "}
+                                             +88 01518-934-337
+                                        </a>
                                    </li>
                                    <li>
-                                        <strong>Working Hours:</strong> Mon-Fri,
-                                        9:00 AM - 6:00 PM
+                                        <strong>Working Hours:</strong>{" "}
+                                        {address.open}
                                    </li>
                               </ul>
                          </div>

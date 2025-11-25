@@ -19,16 +19,16 @@ const Header = () => {
                               <div className="flex items-center md:gap-2 lg:gap-5">
                                    <div className="flex items-center gap-1">
                                         <CiLocationOn className="text-3xl" />
-                                        <p>Uttara, Dhaka</p>
+                                        <p>Sector 11, Uttara, Dhaka-1230</p>
                                    </div>
                                    <div className="flex items-center gap-1">
                                         <CiClock2 className="text-3xl" />
-                                        <p>9AM - 7PM Everyday</p>
+                                        <p>24/7</p>
                                    </div>
                                    <div className="flex items-center gap-1">
                                         <CiMail className="text-3xl" />
-                                        <a href="mailto:">
-                                             avijitroy@gmail.com
+                                        <a href="mailto:prefixhubsolution@gmail.com">
+                                             prefixhubsolution@gmail.com
                                         </a>
                                    </div>
                               </div>
@@ -115,7 +115,7 @@ const Header = () => {
                                    className="text-xl font-bold"
                                    title="Prefix Hub IT Solution"
                               >
-                                   Prefix Hub IT Solution
+                                   PrefixHub Solution
                               </Link>
                          </div>
                          <div className="navbar-center hidden lg:flex gap-5 font-bold text-blue-950 ">
@@ -133,15 +133,21 @@ const Header = () => {
                               </Link>
                               <Link
                                    className="px-4 py-2 hover:bg-black/10 rounded duration-200"
-                                   to={"/it-solutions"}
+                                   to={"/industries"}
                               >
-                                   IT Solutions
+                                   Industries
                               </Link>
                               <Link
                                    className="px-4 py-2 hover:bg-black/10 rounded duration-200"
                                    to={"/team"}
                               >
                                    Team Members
+                              </Link>
+                              <Link
+                                   className="px-4 py-2 hover:bg-black/10 rounded duration-200"
+                                   to={"/about"}
+                              >
+                                   About
                               </Link>
                               <Link
                                    className="px-4 py-2 hover:bg-black/10 rounded duration-200"
@@ -153,12 +159,12 @@ const Header = () => {
                          <div className="navbar-end">
                               <div>
                                    <Link
-                                        to="tel:+8801720580133"
+                                        to="tel:+8801518934337"
                                         title="Have any questions?"
                                         className="p-2 flex items-center gap-2 px-3 bg-accent hover:bg-[#DA3343] duration-200 rounded text-white"
                                    >
                                         <IoMdCall />
-                                        <span>+88 01720-580-133</span>
+                                        <span>+88 01518-934-337</span>
                                    </Link>
                               </div>
                          </div>

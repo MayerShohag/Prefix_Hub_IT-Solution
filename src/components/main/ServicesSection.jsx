@@ -1,39 +1,59 @@
 const services = [
      {
-          title: "Software Development",
+          id: 1,
+          title: "IPS Support and Maintain",
           description:
-               "End-to-end software solutions built with scalable architecture and modern technologies.",
-          icon: "https://img.icons8.com/?size=100&id=9QHudN9uBhDv&format=png&color=000000",
+               "Incident, Problem, and Service management support ensuring stable IT operations, continuous monitoring, and quick issue resolution.",
+          icon: "https://cdn.iconscout.com/icon/free/png-512/free-support-icon-svg-download-png-11223601.png?f=webp&w=512",
      },
      {
-          title: "Cloud & DevOps Engineering",
+          id: 2,
+          title: "IT Support and Services",
           description:
-               "Automated pipelines, cloud migration, infrastructure optimization, and cost-efficient scaling.",
-          icon: "https://img.icons8.com/?size=100&id=mY6wtgn8wmcp&format=png&color=000000",
+               "End-to-end IT assistance including troubleshooting, system setup, maintenance, and professional technical support.",
+          icon: "https://cdn.iconscout.com/icon/free/png-512/free-chat-service-icon-svg-download-png-7095139.png?f=webp&w=512",
      },
      {
-          title: "Cyber Security Solutions",
+          id: 3,
+          title: "Server Management",
           description:
-               "Risk assessments, penetration testing, network protection, and continuous security monitoring.",
-          icon: "https://img.icons8.com/?size=100&id=TJtAWRO3Gpa9&format=png&color=000000",
+               "Server setup, monitoring, optimization, and security for cloud and on-premise infrastructures.",
+          icon: "https://cdn.iconscout.com/icon/free/png-512/free-database-management-icon-svg-download-png-2959143.png?f=webp&w=512",
      },
      {
-          title: "UI/UX Design & Product Strategy",
+          id: 4,
+          title: "Software Services",
           description:
-               "User-focused interface design paired with strategic product guidance for market-ready solutions.",
-          icon: "https://img.icons8.com/?size=100&id=0bDEs0W6HMnT&format=png&color=000000",
+               "Custom software design, development, deployment, integration, and ongoing maintenance for business applications.",
+          icon: "https://cdn.iconscout.com/icon/free/png-512/free-customer-services-icon-svg-download-png-8959441.png?f=webp&w=512", // software development icon
      },
      {
-          title: "IT Consulting & Digital Transformation",
+          id: 5,
+          title: "Web Design & Development",
           description:
-               "Guiding businesses through modernization with expert consulting and long-term strategy.",
-          icon: "https://img.icons8.com/?size=100&id=0dbdoPcVxc3N&format=png&color=000000",
+               "Responsive, modern, and performance-optimized websites built with user-centric UI and latest technologies.",
+          icon: "https://cdn.iconscout.com/icon/free/png-512/free-web-design-icon-svg-download-png-7618827.png?f=webp&w=512",
      },
      {
-          title: "Network Infrastructure Management Services",
+          id: 6,
+          title: "Graphics Design & UI/UX",
           description:
-               "High-performance Android & iOS applications built for scale and seamless experiences.",
-          icon: "https://img.icons8.com/?size=100&id=sHym0nabShlb&format=png&color=000000",
+               "Creative graphic design, branding, mockups, and UI/UX solutions for web and mobile applications.",
+          icon: "https://cdn.iconscout.com/icon/free/png-512/free-ux-design-icon-svg-download-png-1316301.png?f=webp&w=512",
+     },
+     {
+          id: 7,
+          title: "E-commerce & Digital Marketing",
+          description:
+               "E-commerce development, SEO, social media management, and digital marketing strategies to grow your business.",
+          icon: "https://cdn.iconscout.com/icon/free/png-512/free-digital-marketing-icon-svg-download-png-5329127.png?f=webp&w=512",
+     },
+     {
+          id: 8,
+          title: "Cyber Security Solution",
+          description:
+               "Security audits, threat monitoring, vulnerability scanning, and data protection solutions.",
+          icon: "https://cdn.iconscout.com/icon/free/png-512/free-cyber-defence-icon-svg-download-png-12201747.png?f=webp&w=512",
      },
 ];
 
@@ -58,10 +78,11 @@ export default function ServicesSection() {
                                    key={idx}
                                    className="group p-8 bg-white hover:bg-accent hover:text-white rounded-2xl shadow-sm border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                               >
-                                   <div className="text-5xl mb-5">
+                                   <div className="text-5xl mb-5 w-30">
                                         <img
                                              src={service.icon}
                                              alt={service.title}
+                                             className="w-full"
                                         />
                                    </div>
                                    <h3 className="text-xl font-semibold mb-2">
