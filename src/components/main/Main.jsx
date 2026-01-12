@@ -1,16 +1,16 @@
 import Carousel from "./Carousel";
 import AboutSection from "./AboutSection";
 import ServicesSection from "./ServicesSection";
-import TeamSection from "./TeamSection";
+import TeamMembersSection from "./TeamSection";
 import SuccessSection from "./SuccessRate";
-import ContactSection from "../header/contact/GetInTouch";
+import ContactSection from "../GetInTouch";
 
 const Main = () => {
      return (
           <div>
                <Carousel />
                <ServicesSection />
-               <TeamSection />
+               <TeamMembersSection />
                <AboutSection />
                <SuccessSection />
                <ContactSection />

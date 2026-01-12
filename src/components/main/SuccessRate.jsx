@@ -49,25 +49,31 @@ export default function SuccessSection() {
      ];
 
      return (
-          <section className="w-full py-16 bg-linear-to-b from-gray-50 to-gray-100">
+          <section className="w-full py-20">
                <div className="max-w-7xl mx-auto px-6 lg:px-12">
-                    <h2 className="text-center text-3xl lg:text-4xl font-bold text-gray-900 mb-10">
+                    <h2 className="text-center text-3xl mb-5 lg:text-6xl font-semibold text-[#018790]">
                          Our Performance in Numbers
                     </h2>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+                         We believe in transforming ideas into technology,
+                         connecting businesses with innovation, and empowering
+                         clients to succeed in a digital world.
+                    </p>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 mt-15 lg:grid-cols-4 gap-8">
                          {stats.map((item, index) => (
                               <div
                                    key={index}
-                                   className="p-8 bg-white hover:bg-accent rounded-2xl hover:text-white text-blue-950 shadow-md border border-gray-200 hover:shadow-lg transition-all duration-200 text-center"
+                                   className="p-8 bg-[#018790] hover:scale-102 rounded-2xl text-white shadow-2xl transition-all duration-200 text-center"
                               >
                                    <p className="text-5xl font-extrabold mb-3">
                                         <Counter end={item.number} />
                                    </p>
-                                   <h3 className="text-lg font-semibold mb-1">
+                                   <h3 className="text-xl font-medium mb-1">
                                         {item.title}
                                    </h3>
-                                   <p className="text-sm ">
+                                   <p className="text-sm font-light">
                                         {item.description}
                                    </p>
                               </div>
