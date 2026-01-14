@@ -117,7 +117,7 @@ const Industries = () => {
      ];
 
      return (
-          <section className="bg-gray-50 py-16">
+          <section className="bg-gray-50 min-h-screen py-16">
                <div className="text-center mb-14">
                     <h2 className="text-3xl lg:text-6xl font-semibold text-[#005461] mb-3">
                          Industries We Serve

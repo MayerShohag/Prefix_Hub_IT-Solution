@@ -79,7 +79,7 @@ export default function AboutSection() {
                          </p>
                     </div>
 
-                    <div className="space-y-6 lg:col-span-6 ">
+                    <div className="space-y-6 lg:col-span-6">
                          <div>
                               <img
                                    src="Picture/pexels-divinetechygirl-1181354.jpg"
@@ -145,7 +145,7 @@ export default function AboutSection() {
                     </div>
 
                     <div className="grid gap-6 lg:col-span-6">
-                         <div className="rounded-2xl p-6 bg-[#018790]/20 border border-[#018790] shadow-2xl">
+                         <div className="rounded-2xl md:p-6 md:bg-[#018790]/20 md:border md:border-[#018790] md:shadow-2xl">
                               <h4 className="text-lg font-medium text-white flex items-center gap-3">
                                    <TfiLayoutLineSolid className="text-4xl" />
                                    How we work
@@ -155,12 +155,15 @@ export default function AboutSection() {
                               </p>
                               <ul className="mt-4 space-y-5 text-sm text-gray-700">
                                    {whatWeDo.map((weDo) => (
-                                        <li className="flex items-start gap-3 bg-[#018790]/50 p-5 rounded-2xl border border-[#018790]">
+                                        <li
+                                             key={weDo.id}
+                                             className="md:flex items-center gap-3 bg-[#018790]/50 p-5 rounded-2xl border border-[#018790]"
+                                        >
                                              <div className="inline-flex items-center justify-center w-12 h-12 p-2 shadow-md rounded-full bg-accent/50 text-white text-xs font-medium">
                                                   {weDo.icon}
                                              </div>
                                              <span className="">
-                                                  <h1 className="text-gray-200 text-lg font-medium">
+                                                  <h1 className="text-gray-200 mt-2 text-lg font-medium">
                                                        {weDo.topic}
                                                   </h1>
                                                   <span className="text-sm text-gray-300 font-light">

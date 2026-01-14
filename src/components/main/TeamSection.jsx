@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const team = [
      {
           id: "ID-PHS1234",
@@ -91,7 +93,8 @@ export default function TeamMembersSection() {
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
                          {team.map((member, idx) => (
-                              <div
+                              <Link
+                                   to={`/team`}
                                    key={idx}
                                    className="bg-[#018790] rounded-2xl shadow-2xl p-6 text-center hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
                               >
@@ -106,42 +109,7 @@ export default function TeamMembersSection() {
                                    <p className="text-white/80 text-sm font-light mb-4">
                                         {member.role}
                                    </p>
-
-                                   <div className="flex justify-center gap-4 mt-3 text-gray-600">
-                                        {member.socials.linkedin && (
-                                             <a
-                                                  href={member.socials.linkedin}
-                                                  className="hover:text-indigo-600 transition"
-                                             >
-                                                  <i className="fab fa-linkedin text-xl"></i>
-                                             </a>
-                                        )}
-                                        {member.socials.github && (
-                                             <a
-                                                  href={member.socials.github}
-                                                  className="hover:text-indigo-600 transition"
-                                             >
-                                                  <i className="fab fa-github text-xl"></i>
-                                             </a>
-                                        )}
-                                        {member.socials.dribbble && (
-                                             <a
-                                                  href={member.socials.dribbble}
-                                                  className="hover:text-indigo-600 transition"
-                                             >
-                                                  <i className="fab fa-dribbble text-xl"></i>
-                                             </a>
-                                        )}
-                                        {member.socials.twitter && (
-                                             <a
-                                                  href={member.socials.twitter}
-                                                  className="hover:text-indigo-600 transition"
-                                             >
-                                                  <i className="fab fa-twitter text-xl"></i>
-                                             </a>
-                                        )}
-                                   </div>
-                              </div>
+                              </Link>
                          ))}
                     </div>
                </div>

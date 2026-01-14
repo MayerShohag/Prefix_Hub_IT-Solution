@@ -3,7 +3,7 @@ import { Link } from "react-router";
 const slides = [
      {
           id: 1,
-          title: "An Innovative IT Solutions Agency",
+          title: "Innovative IT Solutions Agency",
           subtitle: "Transforming your business with cutting-edge technology.",
           buttonText: "Learn More",
           buttonLink: "/services",
@@ -51,6 +51,7 @@ export default function Carousel() {
           <section className="relative w-full md:h-[650px] h-[300px] overflow-hidden group">
                {slides.map((slide, index) => (
                     <div
+                         key={index}
                          className={`absolute inset-0 transition-opacity duration-1000 ${
                               index === currentSlide
                                    ? "opacity-100 z-10 pointer-events-auto"
@@ -64,11 +65,11 @@ export default function Carousel() {
                          />
                          <div className="">
                               <div className="absolute top-1/3 text-white w-full">
-                                   <div className="flex flex-col items-center">
-                                        <h1 className="md:text-4xl lg:text-6xl text-2xl font-bold mb-2 md:mb-4">
+                                   <div className="flex flex-col items-center justify-center text-center">
+                                        <h1 className="md:text-4xl lg:text-6xl text-2xl font-semibold px-5 mb-2 md:mb-4">
                                              {slide.title}
                                         </h1>
-                                        <p className="mb-6 text-center px-20 lg:text-3xl">
+                                        <p className="mb-6 text-center px-10 lg:px-20 lg:text-3xl">
                                              {slide.subtitle}
                                         </p>
                                         <Link

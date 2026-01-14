@@ -116,9 +116,9 @@ const Header = () => {
                                                        ? "px-3 py-1 bg-black/10 rounded-md"
                                                        : "px-2 py-1"
                                              }
-                                             to={"/it-solutions"}
+                                             to={"/industries"}
                                         >
-                                             IT Solutions
+                                             Industries
                                         </NavLink>
                                         <NavLink
                                              className={({ isActive }) =>
@@ -129,6 +129,16 @@ const Header = () => {
                                              to={"/team"}
                                         >
                                              Team Members
+                                        </NavLink>
+                                        <NavLink
+                                             className={({ isActive }) =>
+                                                  isActive
+                                                       ? "px-3 py-1 bg-black/10 rounded-md"
+                                                       : "px-2 py-1"
+                                             }
+                                             to={"/about"}
+                                        >
+                                             About
                                         </NavLink>
                                         <NavLink
                                              className={({ isActive }) =>

@@ -370,7 +370,7 @@ const ourWorkingProcess = [
 export default function Services() {
      return (
           <section className="w-full bg-gray-50 py-16">
-               <section className="container mx-auto lg:px-40 px-5 bg-gray-50 mb-20">
+               <section className="container mx-auto lg:px-40 px-5 mb-20">
                     <div className="">
                          <div className="text-center mb-14">
                               <h2 className="text-3xl lg:text-6xl font-semibold text-[#005461] mb-3">
@@ -393,7 +393,7 @@ export default function Services() {
                                              <img
                                                   src={service.url}
                                                   alt={service.title}
-                                                  className="rounded-2xl h-150 w-full object-cover"
+                                                  className="rounded-2xl h-auto lg:h-150 w-full object-cover"
                                              />
                                         </div>
                                         <div className="border-l-5 rounded-3xl border-black/50 lg:ml-10 ml-5 lg:pl-8 p-5 mt-10">
@@ -419,7 +419,7 @@ export default function Services() {
                </section>
 
                <div className="bg-[#018790] w-full text-white">
-                    <div className="p-10 py-20 rounded-2xl shadow-md mb-16 container mx-auto lg:px-40">
+                    <div className="p-5 py-20 rounded-2xl shadow-md mb-16 container mx-auto lg:px-40">
                          <div className="text-center lg:col-span-12 lg:mb-20 mb-10">
                               <h2 className="text-3xl lg:text-6xl font-semibold text-gray-200 mb-3">
                                    Why Choose Us?
@@ -432,7 +432,7 @@ export default function Services() {
                                    world.
                               </p>
                          </div>
-                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                               <div className="border p-5 border-white/20 shadow-xl rounded-2xl bg-white/10">
                                    <span>
                                         <PiRankingLight className="text-6xl" />
