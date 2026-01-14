@@ -7,7 +7,7 @@ export default function Footer() {
                     <div>
                          <div className="mb-5">
                               <img
-                                   src="/public/Logo/IDENTITY (2).png"
+                                   src="Logo/IDENTITY (2).png"
                                    alt="Company Logo"
                                    className="w-30 h-12 object-cover rounded-lg"
                               />

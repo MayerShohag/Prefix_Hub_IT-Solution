@@ -152,7 +152,7 @@ const TeamMembers = () => {
           <section className="bg-gray-50 mb-20">
                <section className=" py-16 max-w-6xl mx-auto">
                     <div className="text-center mb-14">
-                         <h2 className="text-3xl lg:text-6xl font-semibold text-[#005461] mb-3">
+                         <h2 className="text-[40px] lg:text-6xl font-semibold text-[#005461] mb-3">
                               Team Members
                          </h2>
                          <p className="text-gray-600 max-w-2xl px-5 mx-auto">

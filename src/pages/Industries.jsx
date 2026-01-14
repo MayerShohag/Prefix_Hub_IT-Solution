@@ -119,10 +119,10 @@ const Industries = () => {
      return (
           <section className="bg-gray-50 min-h-screen py-16">
                <div className="text-center mb-14">
-                    <h2 className="text-3xl lg:text-6xl font-semibold text-[#005461] mb-3">
+                    <h2 className="text-[40px] lg:text-6xl leading-12 lg:leading-normal font-semibold text-[#005461] mb-3">
                          Industries We Serve
                     </h2>
-                    <p className="text-gray-600 max-w-2xl mx-auto">
+                    <p className="text-gray-600 max-w-2xl px-5 mx-auto">
                          We provide specialized IT, networking, and digital
                          solutions tailored for a wide range of industries,
                          including ISPs, telecom providers, corporate offices,

@@ -373,7 +373,7 @@ export default function Services() {
                <section className="container mx-auto lg:px-40 px-5 mb-20">
                     <div className="">
                          <div className="text-center mb-14">
-                              <h2 className="text-3xl lg:text-6xl font-semibold text-[#005461] mb-3">
+                              <h2 className="text-[40px] lg:text-6xl font-semibold text-[#005461] mb-3">
                                    Our Services
                               </h2>
                               <p className="text-gray-600 max-w-2xl mx-auto">

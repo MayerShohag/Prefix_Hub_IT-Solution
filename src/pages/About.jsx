@@ -39,10 +39,10 @@ const About = () => {
           <section className="w-full bg-gray-50 py-16 p-5">
                <div className="container mx-auto lg:px-40 px-5 mb-20">
                     <div className="text-center mb-14">
-                         <h2 className="text-3xl lg:text-6xl font-semibold text-[#005461] mb-3">
+                         <h1 className="text-[40px] lg:text-6xl font-semibold text-[#005461]">
                               About Us
-                         </h2>
-                         <p className="text-gray-600 max-w-2xl px-5 mx-auto">
+                         </h1>
+                         <p className="text-gray-600 max-w-2xl mx-auto">
                               A trusted IT solutions partner delivering smart,
                               scalable, and secure technology services.
                          </p>

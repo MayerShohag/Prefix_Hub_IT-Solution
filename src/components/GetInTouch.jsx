@@ -78,7 +78,7 @@ export default function ContactSection() {
                          </div>
 
                          <div className="bg-white p-6 rounded-2xl shadow-xl border border-gray-300">
-                              <h3 className="text-2xl font-semibold text-gray-900 mb-4">
+                              <h3 className="text-[40px] font-semibold text-gray-900 mb-4">
                                    Contact Details
                               </h3>
                               <ul className="space-y-3 text-wrap text-gray-700">
