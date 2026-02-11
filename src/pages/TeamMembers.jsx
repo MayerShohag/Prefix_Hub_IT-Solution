@@ -39,7 +39,20 @@ const team = [
                github: "#",
                twitter: "#",
           },
-          experties: {},
+          experties: {
+               expert: "AI & Data Science Specialist",
+               description:
+                    "An AI & Data Science Specialist is responsible for designing, developing, and deploying data-driven and intelligent solutions that help organizations make informed decisions and automate processes. This role involves working with large datasets, building machine learning and deep learning models, creating data pipelines, and applying statistical analysis to extract meaningful insights. The specialist ensures data quality, model performance, scalability, and ethical use of AI while collaborating with teams to deliver impactful, data-powered products and services.",
+               skills: [
+                    "Programming for data science (Python, R, SQL)",
+                    "Machine learning & deep learning (TensorFlow, PyTorch, Scikit-learn)",
+                    "Data analysis & visualization (Pandas, NumPy, Matplotlib, Power BI, Tableau)",
+                    "Big data technologies (Spark, Hadoop, data pipelines)",
+                    "Statistics & probability for data modeling",
+                    "Natural Language Processing (NLP) & Computer Vision basics",
+                    "Problem-solving, critical thinking, and analytical skills",
+               ],
+          },
           phone: "+8801613636069",
      },
      {
@@ -207,7 +220,9 @@ const TeamMembers = () => {
                                         <h1 className="text-3xl text-center lg:text-left font-semibold">
                                              {t.name}
                                         </h1>
-                                        <p className="text-center lg:text-left">{t.role}</p>
+                                        <p className="text-center lg:text-left">
+                                             {t.role}
+                                        </p>
                                         <p className="text-lg font-medium mt-3 mb-1">
                                              {t.experties.expert}
                                         </p>
@@ -229,7 +244,7 @@ const TeamMembers = () => {
                                                             </span>
                                                             <span>{skill}</span>
                                                        </li>
-                                                  )
+                                                  ),
                                              )}
                                         </ul>
                                    </div>

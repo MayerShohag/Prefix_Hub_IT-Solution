@@ -7,6 +7,7 @@ import TeamMembers from "../pages/TeamMembers";
 import About from "../pages/About";
 import ContactSection from "../components/GetInTouch";
 import Error from "../pages/Error";
+import ServicesDetails from "../components/ServicesDetails";
 
 export const router = createBrowserRouter([
      {
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
                {
                     path: "/services",
                     Component: Services,
+               },
+               {
+                    path: "/services/:id",
+                    Component: ServicesDetails,
                },
                {
                     path: "/industries",

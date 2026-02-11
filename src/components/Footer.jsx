@@ -8,7 +8,7 @@ export default function Footer() {
                     <div>
                          <div className="mb-5">
                               <img
-                                   src="Logo/IDENTITY (2).png"
+                                   src="/Logo/IDENTITY (2).png"
                                    alt="Company Logo"
                                    className="w-30 h-12 object-cover rounded-lg"
                               />
@@ -73,8 +73,8 @@ export default function Footer() {
                          </h4>
                          <ul className="space-y-2 text-gray-400 text-sm mb-6">
                               <li>Email: support@prefixhubitsolution.com</li>
-                              <li>Phone: +880 1720-580133</li>
-                              <li>Working Hours: Everyday 9AM - 7PM</li>
+                              <li>Phone: +8801518934337</li>
+                              <li>Working Hours: 24/7</li>
                          </ul>
 
                          <h4 className="text-white font-semibold mb-3 text-lg">
@@ -104,7 +104,7 @@ export default function Footer() {
                               </a>
                               <a
                                    target="_blank"
-                                   href="#"
+                                   href="https://instagram.com/PrefixHubitSolution"
                                    className="hover:text-white transition"
                               >
                                    <CiInstagram className="text-2xl" />

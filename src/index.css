@@ -3,3 +3,21 @@
 * {
      font-family: "Poppins", sans-serif;
 }
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee p {
+  display: inline-block;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
