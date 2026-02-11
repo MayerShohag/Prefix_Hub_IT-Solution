@@ -4,7 +4,7 @@ export default function ContactSection() {
           mail: "prefixhubsolution@gmail.com",
           phone: "+8801518934337",
           open: "24/7",
-          map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7296.727106754229!2d90.38215304207282!3d23.876723764337527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c413e891ad29%3A0x98211bdb93d8dec1!2sSector%2011%2C%20Dhaka%201230!5e0!3m2!1sen!2sbd!4v1764094619131!5m2!1sen!2sbd",
+          map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.3860588240764!2d90.3855494!3d23.8759253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c500701f0839%3A0x406dfef2818bd835!2sPrefixHub%20IT%20Solution!5e0!3m2!1sen!2sbd!4v1770790518727!5m2!1sen!2sbd",
      };
      return (
           <section className="w-full py-20 bg-gray-50" id="contact">

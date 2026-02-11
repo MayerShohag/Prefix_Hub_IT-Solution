@@ -14,7 +14,7 @@ const slides = [
           title: "Secure & Reliable",
           subtitle: "We ensure your digital assets are protected 24/7.",
           buttonText: "Our Services",
-          buttonLink: "#services",
+          buttonLink: "/services",
           image: "Picture/pexels-fauxels-3182773.jpg",
      },
      {
@@ -22,7 +22,7 @@ const slides = [
           title: "Expert IT Consulting",
           subtitle: "Guiding your business with expert technology advice.",
           buttonText: "Contact Us",
-          buttonLink: "#contact",
+          buttonLink: "/contact",
           image: "Picture/pexels-cookiecutter-17323801.jpg",
      },
 ];

@@ -6,10 +6,12 @@ import Industries from "../pages/Industries";
 import TeamMembers from "../pages/TeamMembers";
 import About from "../pages/About";
 import ContactSection from "../components/GetInTouch";
+import Error from "../pages/Error";
 
 export const router = createBrowserRouter([
      {
           path: "/",
+          errorElement: Error,
           Component: Root,
           children: [
                {
@@ -35,6 +37,10 @@ export const router = createBrowserRouter([
                {
                     path: `/contact`,
                     Component: ContactSection,
+               },
+               {
+                    path: `/*`,
+                    Component: Error,
                },
           ],
      },

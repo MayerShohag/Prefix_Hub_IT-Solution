@@ -143,10 +143,10 @@ export default function ServicesSection() {
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                         {services.map((service, idx) => (
+                         {services.map((service) => (
                               <Link
-                                   to={"/services"}
-                                   key={idx}
+                                   to={`/services`}
+                                   key={service.id}
                                    className="group p-8 bg-[#018790] shadow-2xl text-white rounded-2xl border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                               >
                                    <div className="text-5xl mb-5 w-30">
@@ -165,7 +165,7 @@ export default function ServicesSection() {
                                                   <li className="" key={idx}>
                                                        {serv}
                                                   </li>
-                                             )
+                                             ),
                                         )}
                                    </div>
                               </Link>

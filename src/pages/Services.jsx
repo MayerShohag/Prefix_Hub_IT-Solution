@@ -1,6 +1,5 @@
-import { AiOutlineFileSearch, AiOutlineSolution } from "react-icons/ai";
+import { AiOutlineFileSearch } from "react-icons/ai";
 import { GrGroup } from "react-icons/gr";
-import { HiOutlineUserGroup } from "react-icons/hi";
 import { MdOutlineSupportAgent } from "react-icons/md";
 import {
      PiHandshake,
@@ -409,7 +408,7 @@ export default function Services() {
                                                                  }
                                                             </p>
                                                        </div>
-                                                  )
+                                                  ),
                                              )}
                                         </div>
                                    </div>

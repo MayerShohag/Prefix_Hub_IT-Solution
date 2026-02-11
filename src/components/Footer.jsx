@@ -1,4 +1,5 @@
 import { CiFacebook, CiInstagram, CiLinkedin, CiTwitter } from "react-icons/ci";
+import { Link } from "react-router";
 
 export default function Footer() {
      return (
@@ -32,48 +33,38 @@ export default function Footer() {
                          <h4 className="text-white font-semibold mb-4 text-lg">
                               Quick Links
                          </h4>
-                         <ul className="space-y-3 text-gray-400 text-sm">
-                              <li>
-                                   <a
-                                        href="#about"
-                                        className="hover:text-white transition"
-                                   >
-                                        About Us
-                                   </a>
-                              </li>
-                              <li>
-                                   <a
-                                        href="#services"
-                                        className="hover:text-white transition"
-                                   >
-                                        Our Services
-                                   </a>
-                              </li>
-                              <li>
-                                   <a
-                                        href="#team"
-                                        className="hover:text-white transition"
-                                   >
-                                        Team
-                                   </a>
-                              </li>
-                              <li>
-                                   <a
-                                        href="#contact"
-                                        className="hover:text-white transition"
-                                   >
-                                        Contact
-                                   </a>
-                              </li>
-                              <li>
-                                   <a
-                                        href="#careers"
-                                        className="hover:text-white transition"
-                                   >
-                                        Careers
-                                   </a>
-                              </li>
-                         </ul>
+                         <div className="space-y-3 flex flex-col text-gray-400 text-sm">
+                              <Link
+                                   to="/about"
+                                   className="hover:text-white transition"
+                              >
+                                   About Us
+                              </Link>
+                              <Link
+                                   to="/services"
+                                   className="hover:text-white transition"
+                              >
+                                   Our Services
+                              </Link>
+                              <Link
+                                   to="/team"
+                                   className="hover:text-white transition"
+                              >
+                                   Team
+                              </Link>
+                              <Link
+                                   to="/contact"
+                                   className="hover:text-white transition"
+                              >
+                                   Contact
+                              </Link>
+                              <Link
+                                   to="/careers"
+                                   className="hover:text-white transition"
+                              >
+                                   Careers
+                              </Link>
+                         </div>
                     </div>
 
                     <div>
@@ -91,24 +82,28 @@ export default function Footer() {
                          </h4>
                          <div className="flex gap-2 text-xl">
                               <a
-                                   href="#"
+                                   target="_blank"
+                                   href="https://www.facebook.com/PrefixHubitSolutions"
                                    className="hover:text-white transition"
                               >
                                    <CiFacebook className="text-2xl" />
                               </a>
                               <a
+                                   target="_blank"
                                    href="#"
                                    className="hover:text-white transition"
                               >
                                    <CiLinkedin className="text-2xl" />
                               </a>
                               <a
+                                   target="_blank"
                                    href="#"
                                    className="hover:text-white transition"
                               >
                                    <CiTwitter className="text-2xl" />
                               </a>
                               <a
+                                   target="_blank"
                                    href="#"
                                    className="hover:text-white transition"
                               >

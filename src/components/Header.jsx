@@ -1,6 +1,5 @@
 import { useState } from "react";
 import {
-     CiClock2,
      CiFacebook,
      CiInstagram,
      CiLinkedin,
@@ -17,7 +16,7 @@ const Header = () => {
      const [show, setShow] = useState(false);
      return (
           <>
-               <div className="sticky backdrop-blur-2xl top-0 z-40">
+               <div className="sticky backdrop-blur-3xl top-0 z-40">
                     <div className="bg-[#005461]">
                          <div className="hidden md:flex justify-between lg:px-40 md:px-10 items-center container mx-auto py-2 text-white">
                               <div className="flex items-center md:gap-2 lg:gap-5">
@@ -38,7 +37,7 @@ const Header = () => {
                               <div className="flex items-center gap-1">
                                    <a
                                         target="_blank"
-                                        href="https://www.facebook.com/"
+                                        href="https://www.facebook.com/PrefixHubitSolutions"
                                    >
                                         <CiFacebook className="text-3xl p-0.5 hover:bg-[#018790] rounded-full duration-200" />
                                    </a>
@@ -72,7 +71,7 @@ const Header = () => {
                                    <img
                                         src="Logo/Logo1.png"
                                         alt="Prefix Hub IT Solution logo"
-                                        className="w-50"
+                                        className="w-30 md:w-50"
                                    />
                               </a>
 
