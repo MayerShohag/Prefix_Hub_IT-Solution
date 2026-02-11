@@ -65,7 +65,7 @@ const About = () => {
                     <div>
                          <img
                               className="rounded"
-                              src="Picture/pexels-brett-sayles-4508751.jpg"
+                              src="/Picture/pexels-brett-sayles-4508751.jpg"
                               alt="sample image"
                          />
                     </div>

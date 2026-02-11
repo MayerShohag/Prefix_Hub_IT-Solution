@@ -7,7 +7,7 @@ const slides = [
           subtitle: "Transforming your business with cutting-edge technology.",
           buttonText: "Learn More",
           buttonLink: "/services",
-          image: "Picture/Ingenieur-reseau-1.jpeg",
+          image: "/Picture/Ingenieur-reseau-1.jpeg",
      },
      {
           id: 2,
@@ -15,7 +15,7 @@ const slides = [
           subtitle: "We ensure your digital assets are protected 24/7.",
           buttonText: "Our Services",
           buttonLink: "/services",
-          image: "Picture/pexels-fauxels-3182773.jpg",
+          image: "/Picture/pexels-fauxels-3182773.jpg",
      },
      {
           id: 3,
@@ -23,7 +23,7 @@ const slides = [
           subtitle: "Guiding your business with expert technology advice.",
           buttonText: "Contact Us",
           buttonLink: "/contact",
-          image: "Picture/pexels-cookiecutter-17323801.jpg",
+          image: "/Picture/pexels-cookiecutter-17323801.jpg",
      },
 ];
 

@@ -7,7 +7,7 @@ const team = [
           id: "ID-PHS1234",
           name: "Shovon Biswas",
           role: "Founder & CEO",
-          img: "Team Member/shovon.png",
+          img: "/Team Member/shovon.png",
           socials: {
                linkedin: "#",
                github: "#",
@@ -33,7 +33,7 @@ const team = [
           id: "ID-PHS9090",
           name: "MD Mubin Muktadir",
           role: "Managing Director",
-          img: "Team Member/mubin.png",
+          img: "/Team Member/mubin.png",
           socials: {
                linkedin: "#",
                github: "#",
@@ -59,7 +59,7 @@ const team = [
           id: "ID-PHS4200",
           name: "Avijit Roy",
           role: "Director & HR-Admin",
-          img: "Team Member/avijit.jpeg",
+          img: "/Team Member/avijit.jpeg",
           socials: {
                linkedin: "#",
                github: "#",
@@ -84,7 +84,7 @@ const team = [
           id: "ID-PHS1969",
           name: "Ashis Kumar Biswas",
           role: "Director & CTO",
-          img: "Team Member/Ashis.jpg",
+          img: "/Team Member/Ashis.jpg",
           socials: {
                linkedin: "#",
                github: "#",
@@ -111,7 +111,7 @@ const team = [
           id: "ID-PHS6502",
           name: "Md Tanvir Hossain",
           role: "General Manger",
-          img: "Team Member/tanvir(1).jpg",
+          img: "/Team Member/tanvir(1).jpg",
           socials: {
                linkedin: "#",
                github: "#",
@@ -138,11 +138,11 @@ const team = [
           id: "ID-PHS0001",
           name: "Shohag Kumar",
           role: "Web Developer (MERN)",
-          img: "Team Member/shohag.jpg",
+          img: "/Team Member/shohag.jpg",
           socials: {
-               linkedin: "#",
-               github: "#",
-               twitter: "#",
+               linkedin: "https://linkedin.com/in/mayershohag",
+               github: "https://github.com/MayerShohag/",
+               twitter: "http://shohagkumar.vercel.app/",
           },
           experties: {
                expert: "Web Design & Development",

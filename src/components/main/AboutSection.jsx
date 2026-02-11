@@ -82,14 +82,14 @@ export default function AboutSection() {
                     <div className="space-y-6 lg:col-span-6">
                          <div>
                               <img
-                                   src="Picture/pexels-divinetechygirl-1181354.jpg"
+                                   src="/Picture/pexels-divinetechygirl-1181354.jpg"
                                    className="w-full h-auto rounded-2xl brightness-75"
                                    alt="about section"
                               />
                          </div>
                          <div className="flex items-center gap-4">
                               <img
-                                   src="Logo/logo.png"
+                                   src="/Logo/logo.png"
                                    className="w-20"
                                    alt="company logo"
                               />

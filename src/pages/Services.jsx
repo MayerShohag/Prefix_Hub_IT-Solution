@@ -14,7 +14,7 @@ import { TfiStatsUp } from "react-icons/tfi";
 const services = [
      {
           id: 1,
-          url: "Picture/Ingenieur-reseau-1.jpeg",
+          url: "/Picture/Ingenieur-reseau-1.jpeg",
           title: "ISP Support & Maintenance Services",
           description: [
                {
@@ -49,7 +49,7 @@ const services = [
      },
      {
           id: 2,
-          url: "Picture/isp-support.jpg",
+          url: "/Picture/isp-support.jpg",
           title: "IT Support and Services",
           description: [
                {
@@ -96,7 +96,7 @@ const services = [
      },
      {
           id: 3,
-          url: "Picture/pexels-divinetechygirl-1181354.jpg",
+          url: "/Picture/pexels-divinetechygirl-1181354.jpg",
           title: "Server & Hosting Management",
           description: [
                {
@@ -135,7 +135,7 @@ const services = [
      },
      {
           id: 4,
-          url: "Picture/pexels-tranmautritam-326501.jpg",
+          url: "/Picture/pexels-tranmautritam-326501.jpg",
           title: "Web Development Services",
           description: [
                {
@@ -166,7 +166,7 @@ const services = [
      },
      {
           id: 5,
-          url: "Picture/pexels-pavel-danilyuk-7658366.jpg",
+          url: "/Picture/pexels-pavel-danilyuk-7658366.jpg",
           title: "Software Services",
           description: [
                {
@@ -197,7 +197,7 @@ const services = [
      },
      {
           id: 6,
-          url: "Picture/pexels-mart-production-7679865.jpg",
+          url: "/Picture/pexels-mart-production-7679865.jpg",
           title: "Graphics Design",
           description: [
                {
@@ -220,7 +220,7 @@ const services = [
      },
      {
           id: 7,
-          url: "Picture/pexels-pixabay-265087.jpg",
+          url: "/Picture/pexels-pixabay-265087.jpg",
           title: "E-commerce & Digital Marketing",
           description: [
                {
@@ -255,7 +255,7 @@ const services = [
      },
      {
           id: 8,
-          url: "Picture/pexels-mikhail-nilov-6963098.jpg",
+          url: "/Picture/pexels-mikhail-nilov-6963098.jpg",
           title: "Cyber Security Solutions",
           description: [
                {
@@ -290,7 +290,7 @@ const services = [
      },
      {
           id: 9,
-          url: "Picture/pexels-cookiecutter-17323801.jpg",
+          url: "/Picture/pexels-cookiecutter-17323801.jpg",
           title: "Training Services",
           description: [
                {
